@@ -7,9 +7,9 @@ Clone this repo: https://github.com/cocodataset/cocoapi
   `git clone https://github.com/cocodataset/cocoapi.git`  
 
 Setup the coco API (also described in the readme here)
-`cd cocoapi/PythonAPI  
-make  
-cd ..`
+`cd cocoapi/PythonAPI`  
+`make  `
+`cd ..`
 
 Download some specific data from here: http://cocodataset.org/#download (described below)
 
