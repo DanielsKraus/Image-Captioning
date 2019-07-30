@@ -49,5 +49,8 @@ class DecoderRNN(nn.Module):
             target_index = outputs.max(1)[1]
             results.append(target_index.item())
             inputs = self.embed(target_index).unsqueeze(1)
+            if target_index.item() == 1:
+                break
+            
         return results
     
